@@ -1,3 +1,5 @@
 from demographic_data_analyzer import calculate_demographic_data
-
+from medical_data_visualizer import draw_cat_plot, draw_heat_map
 calculate_demographic_data()
+draw_cat_plot()
+draw_heat_map()
